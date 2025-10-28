@@ -1,0 +1,23 @@
+{
+    "paths": {
+        "word_lexicon": "words_250000_train.txt",
+        "model_checkpoint": "hangman_guesser_network.pth"
+    },
+    "model_params": {
+        "vector_dimension": 100,
+        "recurrent_units": 256,
+        "recurrent_layers": 3,
+        "dropout_rate": 0.2
+    },
+    "training_params": {
+        "chunk_size": 256,
+        "training_cycles": 20,
+        "initial_learning_rate": 0.001,
+        "min_learning_rate": 0.0001,
+        "simulation_interval": 2
+    },
+    "evaluation_params": {
+        "game_count": 1000
+    }
+}
+
